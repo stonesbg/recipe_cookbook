@@ -1,8 +1,8 @@
 # Refrigerator Pickles
 
-![Refrigerated Pickles](./refrigerator_pickles.jpg "Refrigerator Pickles")
+![Refrigerated Pickles](./pics/refrigerator_pickles.jpg "Refrigerator Pickles")
 
-## Ingrediants
+## Ingredients
 
 * 3 cups distilled white vinegar
 * 1/4 cup granulated sugar
