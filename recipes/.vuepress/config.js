@@ -9,27 +9,33 @@ module.exports = {
       link: '/'
     }],
     sidebar: {
-      //'/chicken/': getSidebar('./recipes/chicken/'),
+      '/breakfast/': getSidebar('./recipes/breakfast/'),
       '/chicken/': getSidebar('./recipes/chicken/'),
       '/pork/': getSidebar('./recipes/pork/'),    
       '/sauces_dips_rubs/dips/': getSidebar('./recipes/sauces_dips_rubs/dips/'),
       '/sauces_dips_rubs/rubs/': getSidebar('./recipes/sauces_dips_rubs/rubs/'),
+      '/sauces_dips_rubs/sauces/': getSidebar('./recipes/sauces_dips_rubs/sauces/'),
+      '/sides/': getSidebar('./recipes/sides/'),
 
-      
       '/sauces_dips_rubs/': [
         '',
         '/sauces_dips_rubs/dips/',
-        '/sauces_dips_rubs/rubs/'
+        '/sauces_dips_rubs/rubs/',
+        '/sauces_dips_rubs/sauces/'
       ],
 
       // fallback
       '/':[
         '',
+        '/breakfast/',
+        '/lunch/',
+        '/dinner/',
+        '/sides/',
+        '/desert/',
         '/chicken/',
         '/pork/',
         '/sauces_dips_rubs/'
       ],
-
     },
   }
 }
