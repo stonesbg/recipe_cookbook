@@ -19,7 +19,7 @@ MUSTARD SAUCE
 * 1	teaspoon pepper
 * hamburger buns
 
-## INSTRUCTIONS
+## Method
 
 Plan ahead: The ham must be salted at least 18 hours before cooking. You’ll have about 2 1/2 cups of mustard sauce.
 

@@ -11,7 +11,7 @@
 * 1/3 cup cocoa
 * 1/2 tsp salt
 
-## Instructions
+## Method
 
 1. Cream Together
    * 2 oz  butter

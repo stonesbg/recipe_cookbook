@@ -15,7 +15,14 @@ module.exports = {
       '/sauces_dips_rubs/dips/': getSidebar('./recipes/sauces_dips_rubs/dips/'),
       '/sauces_dips_rubs/rubs/': getSidebar('./recipes/sauces_dips_rubs/rubs/'),
       '/sauces_dips_rubs/sauces/': getSidebar('./recipes/sauces_dips_rubs/sauces/'),
+      '/desert/': getSidebar('./recipes/desert/'),
+      '/dinner/pasta/': getSidebar('./recipes/dinner/pasta/'),
       '/sides/': getSidebar('./recipes/sides/'),
+
+      '/dinner/': [
+        '',
+        '/dinner/pasta/'
+      ],
 
       '/sauces_dips_rubs/': [
         '',

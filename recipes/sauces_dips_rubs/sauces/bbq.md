@@ -13,6 +13,6 @@
 * 1 tbs Cayenne Pepper
 * 1 Cup Water
 
-## Instructions
+## Method
 
 Simmer for 5 minutes

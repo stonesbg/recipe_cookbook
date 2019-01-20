@@ -13,7 +13,7 @@
 * 1 bunch of chopped fresh dill
 * 3 cloves garlic, roughly chopped
 
-## Instructions
+## Method
 
 1. Combine your vinegar, sugar, salt, and pickling spice in a large bowl. Pour the hot water over the vinegar mixture, and mix until the sugar is dissolved. Cool to room temperature.
 1. Chop your cucumbers into ¼ inch slices, and divide them into jars (mine fit perfectly into 3 quart size jars). Chop the dill and the garlic, and divide it evenly between your jars.
