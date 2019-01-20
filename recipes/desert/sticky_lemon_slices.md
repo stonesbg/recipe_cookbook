@@ -2,7 +2,7 @@
 
 This slice is quite similar to a lemon tart. It was delicious - very gooey and lived up to its name in stickiness. In fact it was so sticky and gooey that I got 'told off' for eating it too loudly! It is quite sweet, so nice to have with a cuppa - I had it with a peppermint tea, which complimented it nicely
 
-![Sticky Lemon Slice](./pics/sticky_lemon_slice.jpg "Sticky Lemon Slice")
+![Sticky Lemon Slice](./pics/sticky_lemon_slice.jpg)
 
 ## Ingredients
 
