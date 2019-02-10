@@ -15,10 +15,10 @@
 * sea salt and pepper
 * coconut oil cooking spray
 
-# Method
+## Method
 
 1. Preheat waffle iron. In a large bowl, stir together grated sweet potato, one egg, coconut flour and 1/2 teaspoon salt.
-1. Spray waffle iron generously with nonstick spray. Spoon one half of the sweet potato mixture into the center of the waffle iron. Close the lid and cook for 5-8 minutes, or until the waffle begins to turn medium golden brown. Remove waffle and repeat with second half of the batter.
+1. Spray waffle iron generously with non stick spray. Spoon one half of the sweet potato mixture into the centre of the waffle iron. Close the lid and cook for 5-8 minutes, or until the waffle begins to turn medium golden brown. Remove waffle and repeat with second half of the batter.
 1. While waffles cook, poach or fry eggs. Peel and pit avocado. Mash together with diced green onions and lime juice. Add salt and pepper to taste.
 1. Drizzle with hot sauce, if desired.
 
