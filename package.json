@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "docs:dev": "vuepress dev recipes",
-    "docs:build": "vuepress build recipes"
+    "serve": "vuepress dev recipes",
+    "build": "vuepress build recipes"
   },
   "devDependencies": {},
   "dependencies": {}
