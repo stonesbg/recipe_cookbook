@@ -20,10 +20,18 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
+- task: CopyFiles@2
+  inputs:
+    sourceFolder: '$(System.DefaultWorkingDirectory)'
+    contents: |
+      recipes\.vuepress\dist
+    targetFolder: '$(Build.ArtifactsStagingDirectory)'
+    overwrite: true
+  displayName: 'Copy built static fiels'
 - task: AzureFileCopy@2
   displayName: 'Publish Site Contents'
   inputs:
-    sourcePath: $(Build.SourcesDirectory)/recipes/.vuepress/dist
+    sourcePath: $(System.DefaultWorkingDirectory)\recipes\.vuepress\dist
     azureConnectionType: ConnectedServiceNameARM
     azureSubscription: azure_sub # Name of service connection
     destination: azureBlob
