@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'Ubuntu-16.04'
+  vmImage: 'vs2017-win2016'
 
 steps:
 - task: NodeTool@0
@@ -21,9 +21,11 @@ steps:
   displayName: 'npm install and build'
 
 - task: AzureFileCopy@2
+  displayName: 'Publish Site Contents'
   inputs:
-    sourcePath: $(Build.Repository.LocalPath)/.vuepress/dist
-    azureSubscription: azure_sub
+    sourcePath: $(Build.SourcesDirectory)/.vuepress/dist
+    azureConnectionType: ConnectedServiceNameARM
+    azureSubscription: azure_sub # Name of service connection
     destination: azureBlob
-    storage:
-    ContainerName: '$web'
+    storage: recipecookbook
+    containerName: $web
