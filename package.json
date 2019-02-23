@@ -3,6 +3,8 @@
     "serve": "vuepress dev recipes",
     "build": "vuepress build recipes"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "vuepress": "^0.14.9"
+  },
   "dependencies": {}
 }
