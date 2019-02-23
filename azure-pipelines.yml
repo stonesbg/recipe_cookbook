@@ -26,4 +26,4 @@ steps:
     azureSubscription: azure_sub
     destination: azureBlob
     storage: 
-      - containername: $web
+      - containerName: $web
