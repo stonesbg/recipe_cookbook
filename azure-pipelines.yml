@@ -23,7 +23,7 @@ steps:
 - task: AzureFileCopy@2
   displayName: 'Publish Site Contents'
   inputs:
-    sourcePath: $(Build.SourcesDirectory)/.vuepress/dist
+    sourcePath: $(Build.SourcesDirectory)/recipes/.vuepress/dist
     azureConnectionType: ConnectedServiceNameARM
     azureSubscription: azure_sub # Name of service connection
     destination: azureBlob
