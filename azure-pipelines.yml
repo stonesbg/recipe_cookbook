@@ -20,10 +20,10 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
-- task: AzureFileCopy@3
+- task: AzureFileCopy@2
   inputs:
     sourcePath: $(Build.Repository.LocalPath)/.vuepress/dist
     azureSubscription: azure_sub
     destination: azureBlob
-    storage: 
-      - containerName: $web
+    storage:
+    ContainerName: '$web'
