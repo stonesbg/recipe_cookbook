@@ -22,7 +22,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    sourceFolder: '$(Build.Repository.LocalPath)'
+    sourceFolder: '$(System.DefaultWorkingDirectory)/_stonesbg_recipe_cookbook/recipes/.vuepress/dist'
     contents: |
       recipes\.vuepress\dist
     targetFolder: '$(Build.ArtifactsStagingDirectory)'
@@ -31,7 +31,7 @@ steps:
 - task: AzureFileCopy@2
   displayName: 'Publish Site Contents'
   inputs:
-    sourcePath: $(Build.Repository.LocalPath)\recipes\.vuepress\dist
+    sourcePath: $(System.DefaultWorkingDirectory)/_stonesbg_recipe_cookbook/recipes/.vuepress/dist
     azureConnectionType: ConnectedServiceNameARM
     azureSubscription: azure_sub # Name of service connection
     destination: azureBlob
